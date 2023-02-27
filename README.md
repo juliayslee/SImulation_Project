@@ -6,15 +6,15 @@ Frances C DePree
 Julia Lee
 
 
-#Game Function
-def another_game(): #this is just one game
+#Game Function for one game
+def another_game(): 
     import random
     import math
-    player_A = 2  #Make these a dictionary? 
+    player_A = 2  
     player_B = 2
     pot = 4
     turn = 0
-    cycle = 0 #need to define the cycle count
+    cycle = 0 
     game = True
     while player_A != 0 and player_B != 0 and game == True:
         print("Player A has:", player_A, "Player B has:", player_B, "Pot has:", pot)
@@ -43,7 +43,7 @@ def another_game(): #this is just one game
                 game = False
                 print("Pot is empty!")
             elif (turn % 2) == 0:
-                player_B += math.floor(pot/2) #add floor function to round down
+                player_B += math.floor(pot/2) 
                 pot = math.ceil(pot/2)
                 print("Player B got half the pot")
             else:
@@ -63,5 +63,5 @@ def another_game(): #this is just one game
             else:
                 game = False
                 print("Player can't pay up!")
-    print("Game over after", turn, "turns.") #count statistics of what ends the game
+    print("Game over after", turn, "turns.") 
     cycle = math.floor(turn/2) #This needs to be more precise 
