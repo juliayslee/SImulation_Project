@@ -1,0 +1,10 @@
+READ ME
+
+ISYE 6644: Simulation
+Another Game - Using First Step Analysis and Simulation to Determine the Expected Number of Game Cycles
+Frances DePree, Julia Lee
+
+first_step_analysis.py is the Python code for first step analysis. Where all expected cycle counts based on first step analysis were built along with the transition matrix
+simulation.ipynb is the simulation Python code for simulated runs and repetitions of 100,000. Expected cycle counts along with the distribution.
+fsa.xls is the Excel document for all 67 states and their expected cycles taken from the result of the first step analysis. This is then where we created the bar chart.
+simulation_project_first_step_analysis_example.xls is the Excel document of the sample example of starting state A4B4 and their next state.
